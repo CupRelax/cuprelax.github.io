@@ -241,17 +241,17 @@ label {
   font-weight: bold;
 }
 [for="themer"] {
-  background: #111;
+  background: #1C00ff00; /* background: #111; */
   border-radius: 0.33em;
   color: #fefefe;
   padding: 0.25em 0.75em;
   margin: 0.5rem;
 }
 [for="themer"] [aria-hidden]::before {
-  content: 'off';
+  content: '☀️';  /* content: 'off'; */
 }
 [for="themer"] :checked + [aria-hidden]::before {
-  content: 'on';
+  content: '🌙'; /* content: 'on'; */
 }
 
 /* Tables */
